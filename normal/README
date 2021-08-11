@@ -1,0 +1,22 @@
+INSTALL:
+
+python3 -m pip install pyresparser
+
+# spaCy
+python3 -m pip install spacy
+python3 -m spacy download en_core_web_sm
+
+# nltk
+python3 -m pip install nltk
+python3 -m nltk.downloader words
+
+
+
+python3 -m pip install nltk 
+python3 -m pip install spacy==2.3.5 
+python3 -m pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz 
+python3 -m pip install pyresparser
+
+
+RUN:
+python3 pyres.py PriyadarshanCV.pdf
